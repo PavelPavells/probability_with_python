@@ -85,7 +85,7 @@ def binomial_histogram(p: float, n: int, num_points: int) -> None:
             color = '0.75'
     )
     mu = p * n
-    sigma = math,sqrt(n * p * (1 - p))
+    sigma = math.sqrt(n * p * (1 - p))
 
     # use a line chart to show the normal approximation
     xs = range(min(data), max(data) + 1)
